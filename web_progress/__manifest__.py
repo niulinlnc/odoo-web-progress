@@ -13,10 +13,11 @@
     'author': "Grzegorz Marczyński",
     'category': 'Productivity',
 
-    'version': '12.0.1.2',
+    'version': '12.0.1.3',
 
     'depends': ['web',
                 'bus',
+                'base_import'
                 ],
 
     'data': [
@@ -30,7 +31,10 @@
 
     'demo': [
     ],
-    'images': ['static/description/progress_bar_loading.gif'],
+    'images': ['static/description/progress_bar_loading_compact.gif',
+               'static/description/progress_bar_loading_cancelling.gif',
+               'static/description/progress_bar_loading_systray.gif',
+               ],
 
     'license': 'LGPL-3',
 
